@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #ffffff;
+  height: 100px;
+  width: auto;
+}
+nav .logo {
+  width: 150px;
+  height: 150px;
+  margin-left: 30px;
+  margin-top: -2%;
+}
+nav ul {
+  float: right;
+  margin-right: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li {
+  font-weight: 550;
+  font-size: 17px;
+}
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  line-height: 80px;
+  padding: 10px;
+}
+nav #aplica a {
+  background-color: #a70802;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 25px;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+nav a:hover {
+  color: #a70802;
+}
+
+body {
+  background-color: aqua;
+}
+body .buscador {
+  position: absolute;
+  height: 200px;
+  width: 600px;
+  background-color: #ffffff;
+  margin-top: 400px;
+  margin-left: 400px;
+}
+body .buscador h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+body .buscador button {
+  background-color: #a70802;
+  width: 600px;
+  height: 30px;
+  margin-top: 130px;
+}
+body .buscador button a {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+body .padreFlex {
+  display: flex;
+  flex-direction: column;
+}
+body .item {
+  background-color: #a70802;
+  color: black;
+}
+body .item1 {
+  background-image: url(Multimedia/banner-1.jpg);
+  background-size: contain;
+  height: 534px;
+  width: auto;
+}
+body .item2 {
+  background-color: #ffffff;
+  height: 600px;
+  width: auto;
+}
+body .item2 .yaris {
+  height: 450px;
+  width: auto;
+  margin-left: 100px;
+  margin-top: -230px;
+  z-index: 1;
+}
+body .item2 .texto2 {
+  width: 500px;
+  height: 150px;
+  margin-left: 780px;
+  margin-top: 200px;
+  z-index: 2;
+}
+body .item2 .texto2 h1 {
+  color: #a70802;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 43px;
+}
+body .item2 .texto2 p {
+  font-size: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 80;
+}
+body .item2 .texto2 h6 {
+  margin-top: 20px;
+}
+body .item2 .texto2 h6 a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #a70802;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 25px;
+}
+body .item3 {
+  background-color: #ffffff;
+  height: 440px;
+  width: auto;
+}
+body .item3 h2 {
+  color: #a70802;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+body .item3 h3 {
+  background-color: #a70802;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 15px;
+  color: #ffffff;
+  height: 40px;
+}
+body .item3 h3 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+body .item3 .cardFlex {
+  display: flex;
+  margin-left: 207px;
+}
+body .item3 .cardFlex .container-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+body .item3 .cardFlex .titulo-auto {
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 82px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #a70802;
+  padding: 5px;
+  border-radius: 25px;
+  color: #ffffff;
+  font-weight: bold;
+}
+body .item3 .cardFlex .precio-auto {
+  position: absolute;
+  margin-top: -55px;
+  margin-left: 78px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  color: #a70802;
+}
+body .item3 .cardFlex .ver-mas {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  margin-top: -28px;
+  margin-left: 92px;
+}
+body .item3 .cardFlex .ver-mas a {
+  text-decoration: none;
+  color: #a70802;
+}
+body .item3 .cardFlex .cartaUno {
+  background-color: #ffffff;
+  border-radius: 25px;
+  height: 300px;
+  width: 230px;
+  margin: 40px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+body .item3 .cardFlex .cartaDos {
+  background-color: #ffffff;
+  border-radius: 25px;
+  height: 300px;
+  width: 230px;
+  margin: 40px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+body .item3 .cardFlex .cartaTres {
+  background-color: #ffffff;
+  border-radius: 25px;
+  height: 300px;
+  width: 230px;
+  margin: 40px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+body .item4 {
+  width: auto;
+  background-image: url(Multimedia/pexels-jordan-hyde-1383834.jpg);
+  background-size: cover;
+  height: 900px;
+  width: auto;
+}
+body .item4 .parrafoFinal {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  opacity: 45%;
+  font-weight: bolder;
+  font-size: 90px;
+  margin-left: 40px;
+  margin-top: 90px;
+}
+body .item1 h3 {
+  color: white;
+}
+body .item1 h3 {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+body .item1 h1 {
+  color: #a70802;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 350%;
+  font-weight: 600;
+}
+body .item1 h4 {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120%;
+  font-weight: 300;
+}
+body .item1 h5 {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+  font-size: 120%;
+  font-weight: 200;
+  background-color: #a70802;
+  width: 180px;
+  height: 25px;
+  border-radius: 25px;
+  text-align: center;
+}
+body .item1 h5 a {
+  color: #ffffff;
+  text-decoration: none;
+}
+body .texto {
+  width: 500px;
+  height: auto;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+body footer {
+  height: 205px;
+  width: auto;
+  background-color: #17181a;
+}
+body footer .logoBlanco {
+  width: 120px;
+  height: auto;
+  margin-left: 48%;
+  margin-top: 0;
+}
+body footer .datosFlex {
+  display: flex;
+  margin-left: 200px;
+}
+body footer .datosFlex #contacto {
+  margin: 10px;
+  margin-right: 120px;
+}
+body footer .datosFlex #contacto h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a70802;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+body footer .datosFlex #contacto p {
+  color: #ffffff;
+  font-size: 15px;
+}
+body footer .datosFlex #ubicacion {
+  padding: 10px;
+  margin-right: 120px;
+}
+body footer .datosFlex #ubicacion h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a70802;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+body footer .datosFlex #ubicacion p {
+  color: #ffffff;
+  font-size: 15px;
+}
+body footer .datosFlex #redesSociales {
+  padding: 10px;
+  margin-right: 120px;
+}
+body footer .datosFlex #redesSociales h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a70802;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+body footer .datosFlex #redesSociales p {
+  color: #ffffff;
+  font-size: 15px;
+}
+body footer .datosFlex #desarrollado {
+  padding: 10px;
+}
+body footer .datosFlex #desarrollado h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a70802;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+body footer .datosFlex #desarrollado p {
+  color: #ffffff;
+  font-size: 15px;
+}/*# sourceMappingURL=estilo.css.map */

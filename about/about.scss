@@ -1,0 +1,214 @@
+$color1: #a70802;
+$color2: #ffffff;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $color2;
+
+    img {
+        position: absolute;
+        margin-left: 485px;
+        margin-top: 60px;
+    }
+
+    .texto-about {
+        width: 700px;
+        height: auto;
+        margin-top: 90px;
+        margin-left: 20px;
+
+        h1 {
+            color: $color1;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 650;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        button {
+            background-color: $color1;
+            color: $color2;
+            border-radius: 25px;
+            padding: 0px 10px 0px 10px;
+            text-align: center;
+        }
+    }
+
+    .local {
+        background-color: #a70802;
+    }
+
+}
+
+nav {
+    background-color: $color2;
+    height: 100px;
+    width: auto;
+
+
+    .logo {
+        width: 150px;
+        height: 150px;
+        margin-left: 30px;
+        margin-top: -2%;
+    }
+
+    ul {
+        float: right;
+        margin-right: 90px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    ul li {
+        font-weight: 550;
+        font-size: 17px;
+    }
+
+    li {
+        list-style-type: none;
+        display: inline-block;
+        line-height: 80px;
+        padding: 10px;
+    }
+
+    #aplica a {
+        background-color: $color1;
+        color: $color2;
+        text-decoration: none;
+        padding: 12px;
+        border-radius: 25px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    a:hover {
+        color: $color1;
+    }
+
+}
+
+h2 {
+    text-align: center;
+    margin-top: 300px;
+    font-weight: 600;
+}
+
+.tarjetas {
+    height: auto;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    grid-template-rows: 300px;
+    grid-column-gap: 8px;
+    margin-left: 3px;
+    padding: 30px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+// Tarjetas con imagenes
+#card1 {
+    background-color: rgba(207, 207, 207, 0.24);
+    background-image: url(/Multimedia/WhatsApp\ Image\ 2023-08-19\ at\ 2.48.42\ PM.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform .2s;
+}
+
+#card1:hover {
+    transform: scale(1.05)
+}
+
+//--------------------------------------------------
+#card2 {
+    background-color: rgba(207, 207, 207, 0.24);
+    background-image: url(/Multimedia/WhatsApp\ Image\ 2023-08-19\ at\ 2.48.35\ PM.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform .2s;
+}
+
+#card2:hover {
+    transform: scale(1.05)
+}
+
+// ------------------------------------------------
+#card3 {
+    background-color: rgba(207, 207, 207, 0.24);
+    background-image: url(/Multimedia/WhatsApp\ Image\ 2023-08-19\ at\ 2.48.36\ PM.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform .2s;
+}
+
+#card3:hover {
+    transform: scale(1.05)
+}
+
+// ------------------------------------------
+#card4 {
+    background-color: rgba(207, 207, 207, 0.24);
+    background-image: url(/Multimedia/WhatsApp\ Image\ 2023-08-19\ at\ 2.48.37\ PM.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform .2s;
+}
+
+#card4:hover {
+    transform: scale(1.05)
+}
+
+// -----------------------------------------
+#card5 {
+    background-color: rgba(207, 207, 207, 0.24);
+    background-image: url(/Multimedia/WhatsApp\ Image\ 2023-08-19\ at\ 2.48.40\ PM.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform .2s;
+}
+
+#card5:hover {
+    transform: scale(1.05)
+}
+
+// Tarjetas con imagenes
+
+h3 {
+    text-align: center;
+    margin-top: 400px;
+    font-weight: 600;
+}
+
+// ------------------------------
+
+.marcas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 60px; /* Espacio entre los logos */
+    margin-left: -350px;
+    margin-top: -25px;
+    padding: 10px;
+  }
+  
+  .logo {
+    text-align:center; /* Centra el contenido del contenedor del logo */
+
+  }
+  
+ .marca {
+    width: 150px;
+    height: auto;
+  }

@@ -1,0 +1,113 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #ffffff;
+  height: 100px;
+  width: auto;
+}
+
+nav .logo {
+  width: 150px;
+  height: 150px;
+  margin-left: -510px;
+  margin-top: -2%;
+}
+
+nav ul {
+  float: right;
+  margin-right: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li {
+  font-weight: 550;
+  font-size: 17px;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  line-height: 80px;
+  padding: 10px;
+}
+
+nav #aplica a {
+  background-color: #a70802;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav a:hover {
+  color: #a70802;
+}
+
+/* Estilos generales */
+header,
+footer {
+  background-color: #a70802;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+header h1,
+footer p {
+  margin: 0;
+}
+
+section {
+  margin: 20px;
+}
+
+/* Estilos para el formulario de contacto */
+.contact-form form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.contact-form button {
+  background-color: #a70802;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Estilos para la información de contacto */
+.contact-info p {
+  margin: 10px 0;
+}
+
+/* Estilos para el footer */
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}/*# sourceMappingURL=contacto.css.map */
